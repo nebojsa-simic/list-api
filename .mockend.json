@@ -1,8 +1,8 @@
 {
   "User": {
     "id": { "int": { "min": 0, "max": 1000000 } },
-    "firstName": { "firstName": { "regexp": "[A-Z][a-z]{5,10}" } },
-    "lastName": { "firstName": { "regexp": "[A-Z][a-z]{5,10}" } },
+    "firstName": { "regexp": "[A-Z][a-z]{5,10}" },
+    "lastName": { "regexp": "[A-Z][a-z]{5,10}" },
     "online": { "boolean": {} },
     "picture": { "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080" }
   }
